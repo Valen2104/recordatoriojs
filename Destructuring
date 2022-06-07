@@ -1,0 +1,20 @@
+// Destrcturing Object
+const AprendiendoJS = {
+ version: {
+  nueva: 'ES6',
+  anterior: 'ES5',
+ },
+ frameworks: ['react', 'VueJS', 'AngularJS'],
+}
+
+//Destructuringn es extraer valores de un objeto
+
+//console.log(aprendiendoJS)
+
+//version anterior
+//let version= aprendiendoJS.version.nueva;
+//let framework= aprendiendoJS.frameworks[1];
+
+//Destructuring forma nueva
+let { anterior } = anprendiendoJS.version
+console.log(anterior)
